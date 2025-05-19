@@ -1,4 +1,4 @@
-                                                                       **BlogEngine Backend (Spring Boot)**
+                                                                       ****BlogEngine Backend (Spring Boot)****
 This project is a backend service for a blogging platform, built using Java, Spring Boot, and Hibernate. It provides a robust foundation for managing users, posts, and comments with full CRUD capabilities and proper entity relationships. Currently, it's a backend-only application and will later be connected to a frontend (likely using React with Render deployment).
 
                                                                         🚀 Features
@@ -20,13 +20,13 @@ Maven
 MySQL (or your configured DB)
 
 
-**Endpoints Overview
+Endpoints Overview
 POST /api/users - Create a new user
 GET /api/users/{id} - Get user by ID
 POST /api/posts - Create a new post
 GET /api/posts/{id} - Get post by ID
 POST /api/comments - Add a comment to a post
-GET /api/comments/{id} - Get comment by ID**
+GET /api/comments/{id} - Get comment by ID
 
 🛣️ Roadmap
 ✅ Implement backend with full CRUD
