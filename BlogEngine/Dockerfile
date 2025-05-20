@@ -14,7 +14,7 @@ RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
 # Set the port (optional if already in application.properties)
-EXPOSE 8082
+EXPOSE 8080
 
 # Run the generated JAR file
 CMD ["java", "-jar", "target/BlogEngine-0.0.1-SNAPSHOT.jar"]
